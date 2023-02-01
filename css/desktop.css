@@ -1,0 +1,181 @@
+@media screen and (min-width: 1200px){
+    /* ------------Header------------ */
+    .header{  
+max-width: 1440px;
+}
+/* .mail-icon,
+.tel-icon {
+    display:block;
+    margin-right: 10px;
+    align-items: center;
+    fill: currentColor;
+}  */
+.container-header{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 1128px;
+    }
+.logo,
+.footer-logo {
+      text-decoration: none;
+      font-family: "Raleway";
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.33;
+      letter-spacing: 0.03em;
+    }
+.logo {
+      margin-top: 24px;
+      margin-bottom: 28px;
+      margin-left: 156px;
+    }
+    .navi{
+        margin-left: 76px;
+    }
+.contacts-nav{
+    display: flex;
+    margin-left: 332px;
+    align-items: center;
+    margin-top: 0;
+    gap: 40px;
+}
+.contacts-item{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+/* ------------Hero----------- */
+.section-hero {
+    max-width: 1440px;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),url(../Images/hero-back-x1pc.jpg);
+}
+.section-qualities{
+    padding-bottom: 94px;
+}
+.section-qualities .container{
+    max-width: 1128px;
+
+}
+.section-qualities .qualities {
+   flex-wrap: nowrap;
+   gap:24px;
+
+  }
+  .reasons-item{
+    padding-bottom: 0;
+  }
+.icon{
+ width: 264px;
+ height: 112px;
+ margin-bottom: 8px;
+}
+.set{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.details{
+    font-weight: 500;
+}
+/* -------Section-job-------- */
+
+.job{
+max-width: 1128px;
+}
+
+.section-job{
+    display: block;
+    padding-bottom: 120px;
+    padding-top: 26px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--primary-white-color)
+}
+.work-example-title{
+    display: none;
+}
+.job-img {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 0px;
+  }
+.directions{
+ 
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+/* -----Наша команда-------- */
+.section-team{
+    padding-top: 120px;
+}
+.team{
+    max-width: 1128px;
+}
+.our-team{
+    flex-wrap: wrap
+}
+.our-team li {
+    width: calc(25% - 12px);
+   
+  }
+.social-list{
+    margin-top: 0;
+    margin-left: 3%;
+}
+/* ---CUSTOMERS--- */
+.section-clients{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.container-clients{
+    max-width: 1128px;
+}
+a.client-link{
+    width: 168px;
+}
+.client-list{
+    flex-wrap: nowrap;
+}
+/* -----FOOTER------ */
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container-footer{
+    max-width: 1128px;
+    padding-left: 0;
+}
+.footer-container{
+   margin-top: 0; 
+}
+.footer-flex{
+display:flex;
+flex-wrap: nowrap;
+gap: 0;
+column-gap: 0;
+padding-left: 0;
+
+}
+.footer-container.text{
+    margin-right:120px;
+}
+.footer-container.social{
+    margin-right:80px;
+}
+
+}

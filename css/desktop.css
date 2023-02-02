@@ -35,7 +35,7 @@ max-width: 1440px;
     }
 .contacts-nav{
     display: flex;
-    margin-left: 332px;
+    margin-left: auto;
     align-items: center;
     margin-top: 0;
     gap: 40px;

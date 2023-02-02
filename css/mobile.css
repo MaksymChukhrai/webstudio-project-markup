@@ -105,17 +105,7 @@
     border-bottom: 1px solid var(--border-white-color);
     }
 
-    .logo,
-    .footer-logo {
-    text-decoration: none;
-    font-family: "Raleway";
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.03em; 
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
+
 .web {
     color: var(--accent-color);
   }
@@ -135,7 +125,7 @@
   padding:0;
   line-height: 0;
 }
-/* полотно моб иеню */
+/* полотно моб меню */
 .mobile-menu{
   position:fixed;
   width: 100%;
@@ -162,6 +152,9 @@
   padding-left: 40px;
   padding-top: 80px;
   padding-bottom: 58px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .mobile-menu_close-btn{
@@ -174,7 +167,9 @@
   line-height: 0;
 }
 .list-mobile_nav{
-  padding-left: 25px;
+  /* padding-left: 25px; */
+  margin-bottom: auto;
+
 }
 .list-mobile_nav>li{
   list-style: none;
@@ -209,24 +204,24 @@
 
 .mobile-menu-contacts{
   list-style: none;
-  margin-top: 306px;
+  /* margin-top: 306px; */
   margin-bottom: 48px;
-  padding-left: 25px;
+  /* padding-left: 25px; */
 }
 .mobile-menu-tel{
   text-decoration: none;
-  font-weight: 600;
-  font-size: 36px;
-  line-height:1.11;
+  font-weight: 500;
+  font-size: 20px;
+  line-height:1.2;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-  padding-bottom: 32px;
+  margin-bottom: 40px;
 }
 .mobile-menu-mail{
   text-decoration: none;
   font-weight: 500;
-  font-size: 24px;
-  line-height:1.166;
+  font-size: 20px;
+  line-height:1.2;
   letter-spacing: 0.02em;
   color: var(--primary-grey-color);
 }
@@ -235,8 +230,8 @@
   /* justify-content: center; */
   list-style: none;
   gap: 56px;
-  padding-bottom: 40px;
-  padding-left: 25px;
+  /* padding-bottom: 40px;
+  padding-left: 25px; */
 }
 
 }
@@ -289,8 +284,8 @@ margin-bottom: 16px;
 .mobile-menu{
   position:fixed;
   width: 100%;
-  /* max-height: 796px;
-  height: 100%; */
+  /* max-height: 796px; */
+  height: 100%;
   z-index: 1000;
   top: 0;
   left: 0;
@@ -315,6 +310,9 @@ margin-bottom: 16px;
   padding-left: 40px;
   padding-top: 80px;
   padding-bottom: 58px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .mobile-menu_close-btn{
@@ -326,6 +324,10 @@ margin-bottom: 16px;
   padding: 0;
   line-height: 0;
 }
+.list-mobile_nav{
+  margin-bottom: auto;
+}
+
 .list-mobile_nav>li{
   list-style: none;
   padding-bottom: 32px;
@@ -359,17 +361,17 @@ margin-bottom: 16px;
 
 .mobile-menu-contacts{
   list-style: none;
-  margin-top: 306px;
+  /* margin-top: 306px; */
   margin-bottom: 48px;
 }
 .mobile-menu-tel{
   text-decoration: none;
-  font-weight: 600;
-  font-size: 36px;
-  line-height:1.11;
+  font-weight: 500;
+  font-size: 20px;
+  line-height:1.2;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-  padding-bottom: 32px;
+  margin-bottom: 40px;
 }
 .mobile-menu-mail{
   text-decoration: none;
@@ -386,11 +388,9 @@ margin-bottom: 16px;
 }
 .menu-social-list{
   display: flex;
-  /* justify-content: center; */
   list-style: none;
   gap: 56px;
-  padding-bottom: 40px;
-  padding-left: 25px;
+
 }
 
 .social-item{
@@ -425,8 +425,8 @@ margin-bottom: 16px;
   max-width: 428px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 54px;
-  padding-right: 54px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .slogan {
@@ -647,13 +647,13 @@ flex-grow: 0;
   background: var(--primary-white-color);
   box-shadow: var(--card-shadow);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
-.mark,
+/* .mark,
 .tom,
 .camila{
   margin-bottom: 72px;
-}
+} */
 
 
 
@@ -686,17 +686,18 @@ flex-grow: 0;
 }
 .social-list,
 .footer-social-list {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   /* padding: 0px 32px; */
-  margin-top: 16px;
+ 
 }
+
 
 .social-list {
   margin-top: 16px;
   gap: 24px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .social-item,
@@ -862,7 +863,7 @@ text-align: left;
   color: var(--primary-white-color);
 }
 .footer-social-list {
-  margin-top: 16px;
+ 
   display: inline-flex;
   gap: 16px;
 }

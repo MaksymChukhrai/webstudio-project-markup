@@ -120,14 +120,9 @@ img {
 .container-header {
   display: flex;
 }
-/* .container-footer {
-  display: flex;
-  align-items: baseline;
-  max-width: 1128px;
-  padding-left: 0;
-  margin-left: auto;
-  margin-right: auto;
-} */
+.container-footer {
+  padding-right: 15px;
+}
 
 a.links:hover,
 a.links:focus {
@@ -243,8 +238,8 @@ a.links {
 
 .social-item,
 .footer-social-item {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   /* margin-right: 10px; */
 }
 /* .footer-social-item{
@@ -269,8 +264,8 @@ a.links {
 
 .footer-social-link {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
@@ -583,8 +578,8 @@ text-align: left;
   margin-left: auto;
 
   max-width: 1128px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 
 .nav-buttons,
@@ -603,14 +598,14 @@ text-align: left;
 .nav-projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 24px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
 }
 .nav-projects li {
   background-color: var(--primary-white-color);
-  flex-basis: calc((100% - 2 * 20px) / 3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 .project-link:hover,
 .project-link:focus {

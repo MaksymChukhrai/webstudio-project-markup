@@ -130,13 +130,14 @@ line-height: 1.11px;
     flex-wrap: wrap
 }
 .our-team li {
-    width: calc(25% - 12px);
+    width: calc(25% - 24px);
+    /* margin-bottom: 0; */
    
   }
-.social-list{
-    margin-top: 0;
-    margin-left: 3%;
-}
+/* .social-list{
+    
+   gap: 0;
+} */
 /* ---CUSTOMERS--- */
 .section-clients{
     padding-top: 120px;

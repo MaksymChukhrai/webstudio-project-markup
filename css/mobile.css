@@ -229,7 +229,8 @@
   display: flex;
   /* justify-content: center; */
   list-style: none;
-  gap: 56px;
+  gap: 24px;
+  width: 328px;
   /* padding-bottom: 40px;
   padding-left: 25px; */
 }
@@ -647,7 +648,7 @@ flex-grow: 0;
   background: var(--primary-white-color);
   box-shadow: var(--card-shadow);
   border-radius: 0px 0px 4px 4px;
-  /* margin-bottom: 72px; */
+  margin-bottom: 72px;
 }
 /* .mark,
 .tom,
@@ -689,7 +690,7 @@ flex-grow: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 0px 32px; */
+ 
  
 }
 
@@ -697,8 +698,8 @@ flex-grow: 0;
 .social-list {
   margin-top: 16px;
   gap: 24px;
-  /* margin-left: 50px; */
-}
+  
+} 
 
 .social-item,
 .footer-social-item {

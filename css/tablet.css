@@ -106,6 +106,15 @@ a.links {
 .section-team {
     padding-bottom: 32px;
 }
+.social-list{
+  width: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 24px;
+}
+
 .our-team {
     display: flex;
     flex-wrap: wrap;

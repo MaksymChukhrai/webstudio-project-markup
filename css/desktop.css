@@ -1,8 +1,8 @@
 @media screen and (min-width: 1200px) {
   /* ------------Header------------ */
-  .header {
+  /* .header {
     max-width: 1440px;
-  }
+  } */
   /* .mail-icon,
 .tel-icon {
     display:block;
@@ -14,7 +14,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    min-width: 1128px;
+    max-width: 1440px;
+ 
   }
   .logo,
   .footer-logo {
@@ -54,7 +55,11 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../Images/hero-back-x1pc.jpg);
-  }
+}
+
+
+  /* -------Qualities------- */
+
   .section-qualities {
     padding-bottom: 94px;
   }
@@ -81,7 +86,7 @@
     text-align: left;
   }
   .details {
-    font-weight: 500;
+    font-weight: 400;
   }
   /* -------Section-job-------- */
 
@@ -120,17 +125,21 @@
   /* -----Наша команда-------- */
   .section-team {
     padding-top: 120px;
+    padding-bottom: 120px;
   }
   .team {
     max-width: 1128px;
+  
   }
   .our-team {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 24px;
+ 
+
   }
-  .our-team li {
-    width: calc(25% - 24px);
-    /* margin-bottom: 0; */
-  }
+  /* .our-team li {
+  width: 100%;
+  } */
   /* .social-list{
     
    gap: 0;

@@ -1,5 +1,8 @@
 @media screen and (min-width: 768px) {
-  .header {
+  /* .header {
+    max-width: 768px;
+  } */
+  .container-header{
     max-width: 768px;
   }
   .mobile-menu-open_icon {
@@ -78,7 +81,10 @@
   .section-hero {
     max-width: 768px;
   }
-
+  .slogan{
+    font-size: 56px;
+    line-height: 1.07;
+    }
   .section-qualities .container {
     display: flex;
     flex-wrap: wrap;
@@ -103,7 +109,7 @@
   }
   /* --------Section Team------- */
   .section-team {
-    padding-bottom: 32px;
+    padding-bottom: 106px;
   }
   .social-list {
     width: 208px;
@@ -117,15 +123,18 @@
   .our-team {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 64px;
   }
   .our-team li {
-    width: calc(50% - 12px);
+    /* width: calc(50% - 12px); */
+    margin: 0;
   }
-  .mark,
+  /* .mark,
   .tom {
     margin-bottom: 72px;
-  }
+  } */
   /* ----------CUSTOMERS----------- */
   .section-clients {
     padding-top: 96px;
@@ -140,7 +149,12 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+
   }
+  a.client-link {
+    width: 168px;
+  }
+
   /* -------FOOTER---- */
 
   .footer {

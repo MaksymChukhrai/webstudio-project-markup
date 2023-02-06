@@ -183,4 +183,92 @@
   .footer-container.social {
     margin-right: 80px;
   }
+/* -----------Portfolio------------ */
+.section-portfolio{
+  padding-top: 72px;
+  padding-bottom: 120px;
+  
+}
+.container-portfolio{
+  max-width: 1200px;
+ 
+}
+.nav-projects{
+  display:flex;
+  flex-wrap: wrap;
+  /* flex-basis: calc((100% - 24px) / 2); */
+  gap: 24px;
+  row-gap: 72px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  }
+  .project-item{
+    margin-right: auto;
+    margin-left: auto;
+   
+    width:360px;
+
+  }
+  .project-item:not(:last-child) {
+    margin-bottom: 0;
+    }
+  .image-p{
+    width: 360px;
+    height:300px;
+    }
+
+    .project-link:hover,
+    .project-link:focus {
+      box-shadow: var(--card-shadow);
+    }
+
+  .project-link:hover .overlay,
+  .project-link:focus .overlay {
+    transform: translateY(0);
+  }
+  
+  .box {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 63px 24px;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--box-overlay-color);
+    transform: translateY(100%);
+    /* transition: var(--transition-speed); */
+    transition: transform var(--transition-speed);
+  }
+
+  .overlay p {
+    color: var(--our-team-white);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+.footer-social-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--primary-white-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--transition-speed),
+    color var(--transition-speed);
+}
 }
